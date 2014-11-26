@@ -44,7 +44,6 @@ describe Contact do
       firstname: 'David',
       lastname: 'Francis',
       email: 'tester@example.com')
-    binding.pry
     expect(contact.name).to include("David Francis")
   end
 end
